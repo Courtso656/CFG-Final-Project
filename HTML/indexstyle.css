@@ -1,0 +1,11 @@
+body {
+  background-color: rgb(50,50,50);
+}
+
+/* tried to make the text white and the font different - only the font changed */
+h1 {
+  color: rgb(255,255,255);
+  margin-top: 15px;
+  font-family: papyrus;
+  text-align: center;
+}
