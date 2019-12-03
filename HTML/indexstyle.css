@@ -2,10 +2,19 @@ body {
   background-color: rgb(50,50,50);
 }
 
-/* tried to make the text white and the font different - only the font changed */
+
 h1 {
   color: rgb(255,255,255);
-  margin-top: 15px;
-  font-family: papyrus;
+  margin-top: 25px;
+  font-family: bitter;
   text-align: center;
+  font-size: 65px;
+}
+
+h2 {
+  color: rgb(255,255,255);
+  margin-top: 25px;
+  font-family: bitter;
+  text-align: center;
+  font-size: 65px;
 }
