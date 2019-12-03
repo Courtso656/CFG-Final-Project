@@ -1,0 +1,11 @@
+body {
+  background-color: rgb(50,50,50);
+}
+
+h1 {
+  color: rgb(255,255,255);
+  margin-top: 10px;
+  font-family: bitter;
+  text-align: center;
+  font-size: 55px;
+}
