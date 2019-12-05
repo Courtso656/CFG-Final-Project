@@ -25,3 +25,8 @@ div#heading {
 div#navigation {
   background-color: rgb(120,72,72);
 }
+
+div#footer {
+  background-color: rgb(120,72,72);
+  color: rgb(255,255,255);
+}
