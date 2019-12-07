@@ -1,0 +1,48 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 3%;
+  display: flex;
+
+  justify-content: space-between;
+  width: 95%;
+}
+li {display: inline;
+}
+
+body {
+  background-color: rgb(212,175,55);
+}
+
+h1 {
+  color: rgb(255,255,255);
+  margin-top: 10px;
+  font-family: bitter;
+  text-align: center;
+  font-size: 55px;
+}
+
+header {
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-family: bitter;
+  text-align: center;
+  font-size: 40px;
+}
+
+div#heading {
+  background-image: linear-gradient(rgb(212,175,55),rgb(255,253,208));
+
+}
+div#navigation {
+  background-image: linear-gradient(rgb(255,253,208),rgb(212,175,55));
+
+}
+
+div#footer {
+  background-color: rgb(120,72,72);
+  color: rgb(255,255,255);
+}
