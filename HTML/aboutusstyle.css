@@ -34,7 +34,8 @@ h2 {
 }
 
 div#heading {
-  background-image: linear-gradient(rgb(105,105,105),rgb(0,0,0));
+  background-image: url("./karolinska_institutet.jpg");
+  background-size: cover;
 
 }
 div#navigation {
