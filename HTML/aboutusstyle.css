@@ -4,7 +4,7 @@ ul {
   margin: 0;
   padding: 3%;
   display: flex;
-
+  text-align: center;
   justify-content: space-between;
   width: 95%;
 }
@@ -12,7 +12,7 @@ li {display: inline;
 }
 
 body {
-  background-color: rgb(212,175,55);
+  background-color: rgb(105,105,105);
 }
 
 h1 {
@@ -34,15 +34,23 @@ h2 {
 }
 
 div#heading {
-  background-image: linear-gradient(rgb(212,175,55),rgb(255,253,208));
+  background-image: linear-gradient(rgb(105,105,105),rgb(0,0,0));
 
 }
 div#navigation {
-  background-image: linear-gradient(rgb(255,253,208),rgb(212,175,55));
+  background-image: linear-gradient(rgb(0,0,0),rgb(105,105,105));
 
 }
 
 div#footer {
   background-color: rgb(120,72,72);
   color: rgb(255,255,255);
+}
+
+.btn {
+  background-color: #4CAF50; /* Green */
+font-family: Papyrus;
+}
+.btn:hover {
+  background-color:
 }

@@ -1,5 +1,18 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 3%;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  width: 95%;
+}
+li {display: inline;
+}
+
 body {
-  background-color: rgb(200,200,200);
+  background-color: rgb(212,175,55);
 }
 
 h1 {
@@ -15,18 +28,29 @@ header {
 }
 
 h2 {
-  color: rgb(238,130,238);
+  font-family: bitter;
+  text-align: center;
+  font-size: 40px;
 }
 
 div#heading {
-  background-color: rgb(0,0,0);
+  background-image: linear-gradient(rgb(212,175,55),rgb(255,253,208));
 
 }
 div#navigation {
-  background-color: rgb(120,72,72);
+  background-image: linear-gradient(rgb(255,253,208),rgb(212,175,55));
+
 }
 
 div#footer {
   background-color: rgb(120,72,72);
   color: rgb(255,255,255);
+}
+
+.btn {
+  background-color: #4CAF50; /* Green */
+font-family: Papyrus;
+}
+.btn:hover {
+  background-color:
 }
