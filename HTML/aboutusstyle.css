@@ -1,5 +1,5 @@
 
-ul {
+.nav {
   list-style-type: none;
   margin: 0;
   padding: 3%;
@@ -8,7 +8,7 @@ ul {
   justify-content: space-between;
   width: 95%;
 }
-li {display: inline;
+.header_item {display: inline;
 }
 
 body {
@@ -31,6 +31,8 @@ h2 {
   font-family: bitter;
   text-align: center;
   font-size: 40px;
+  color: White;
+
 }
 
 div#heading {
@@ -48,10 +50,37 @@ div#footer {
   color: rgb(255,255,255);
 }
 
+
 .btn {
   background-color: #4CAF50; /* Green */
 font-family: Papyrus;
 }
 .btn:hover {
   background-color:
+}
+.carousel {
+  width:50%;
+  margin: auto;
+}
+p {
+  font-size: 18pt;
+  color: white;
+  padding: 5px;
+}
+
+div#footer_item {
+  display:none;
+}
+div#footer_collumn {
+  display: none;
+}
+
+ul {  list-style-type: none;
+  margin: 0;
+  padding: 3%;
+  text-align: center;
+  justify-content: space-between;
+  width: 95%;
+}
+.footer_lists {display: inline;
 }
