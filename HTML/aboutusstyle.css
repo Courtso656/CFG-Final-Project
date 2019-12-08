@@ -18,7 +18,7 @@ body {
 h1 {
   color: rgb(255,255,255);
   margin-top: 10px;
-  font-family: bitter;
+  font-family: arial;
   text-align: center;
   font-size: 55px;
 }
@@ -28,7 +28,7 @@ header {
 }
 
 h2 {
-  font-family: bitter;
+  font-family: arial;
   text-align: center;
   font-size: 40px;
   color: White;
@@ -52,17 +52,21 @@ background-image: linear-gradient(rgb(0,0,0),rgb(75,75,75));
 
 
 .btn {
-  background-color: #4CAF50; /* Green */
-font-family: Papyrus;
+  background-color: rgb(9,122,200);
+font-family: arial;
+outline-color: rgb(9,122,200);
 }
 .btn:hover {
-  background-color:
+  background-color: #23d5fc;
 }
+
+
 .carousel {
   width:50%;
   margin: auto;
 }
 p#paragraph {
+  font: arial;
   font-size: 18pt;
   color: white;
   padding: 5px;
@@ -77,6 +81,9 @@ div#footer_item {
 }
 div#footer_collumn {
   display: none;
+}
+a {
+  color: white;
 }
 
 ul {list-style-type: none;
