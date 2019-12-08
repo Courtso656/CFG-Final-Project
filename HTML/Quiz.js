@@ -77,23 +77,24 @@
       correctAnswer: "a"
     },
     {
-      question: "What is the best site ever created?",
+      question: "How many people have won a Nobel Prize?",
       answers: {
-        a: "SitePoint",
-        b: "Simple Steps Code",
-        c: "Trick question; they're both the best"
+        a: "53",
+        b: "10,000",
+        c: "919",
+        d: "991"
       },
       correctAnswer: "c"
     },
     {
-      question: "Where is Waldo really?",
+      question: "Which Nobel prize Catagory has percentage of female laureates?",
       answers: {
-        a: "Antarctica",
-        b: "Exploring the Pacific Ocean",
-        c: "Sitting in a tree",
-        d: "Minding his own business, so stop asking"
+        a: "Peace",
+        b: "Literature",
+        c: "Physics",
+        d: "Medicine"
       },
-      correctAnswer: "d"
+      correctAnswer: "b"
     }
   ];
 
