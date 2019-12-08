@@ -32,9 +32,13 @@ h2 {
   text-align: center;
   font-size: 40px;
   color: White;
-
 }
-
+h3 {
+  color: White;
+  text-align: center;
+  font-size: 30px;
+  font-family: arial:
+}
 div#heading {
   background-image: url("./karolinska_institutet.jpg");
   background-size: cover;
