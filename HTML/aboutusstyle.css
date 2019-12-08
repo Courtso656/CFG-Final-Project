@@ -62,7 +62,7 @@ font-family: Papyrus;
   width:50%;
   margin: auto;
 }
-p {
+p#paragraph {
   font-size: 18pt;
   color: white;
   padding: 5px;
@@ -87,7 +87,7 @@ ul {list-style-type: none;
 table {
   border-collapse: collapse;
   width: 100%;
-  
+
 }
 
 th, td {
@@ -96,3 +96,7 @@ th, td {
 }
 
 tr:nth-child(even) {background-color: #f2f2f2;}
+
+.card {
+height: 40rem;  
+}
