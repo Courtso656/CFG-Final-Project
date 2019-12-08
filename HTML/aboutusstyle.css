@@ -35,18 +35,19 @@ h2 {
 }
 h3 {
   color: White;
-  text-align: center;
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 0px;
   font-size: 30px;
   font-family: arial:
 }
 div#heading {
   background-image: url("./karolinska_institutet.jpg");
   background-size: cover;
-
 }
+
 div#navigation {
   background-image: linear-gradient(rgb(0,0,0),rgb(105,105,105));
-
 }
 
 div#footer {
@@ -72,6 +73,12 @@ outline-color: rgb(9,122,200);
 p#paragraph {
   font: arial;
   font-size: 18pt;
+  color: white;
+  padding: 5px;
+}
+p#life {
+  font: arial;
+  font-size: 14pt;
   color: white;
   padding: 5px;
 }
@@ -114,4 +121,11 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
 .card {
 height: 40rem;
+}
+
+ul#facts {
+color: white;
+text-align: left;
+padding-left: 10px;
+padding-top: 0px;
 }
