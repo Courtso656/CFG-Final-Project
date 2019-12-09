@@ -138,5 +138,15 @@ div#quiz{
 
 h3#contact {
   text-align: center;
-  fontistyle: arial;
+  font-style: arial;
+  font-size: 28pt;
+}
+div#googleform {
+  text-align: center;
+}
+p#contact {
+  text-align: center;
+  font-style: arial;
+  color: white;
+  font-size: 18pt;
 }
