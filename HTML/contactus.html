@@ -1,31 +1,53 @@
 <!DOCTYPE HTML>
 <html lang="en">
 
-<div>
-  <head>
-<!--Bootstrap link-->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<!--CSS link -->
-      <link rel="stylesheet" type="text/css" href="contactusstyle.css" >
+<Head>
 
-      <title> Women who changed the world </title>
+        <!--Bootstrap link-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!--CSS link -->
+        <link rel="stylesheet" type="text/css" href="aboutusstyle.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-      <Body>
-          <h1>The Female Laureate</h1>
-      </body>
-
+</Head>
+<Body>
+  <div id="heading">
+      <h1> The Female Laureate </h1>
       <header class="img">
-        <div class="container h-5">
-            <div class="col-12 text-center">
-              <img src="C:\Users\C.Dane\Documents\GitHub\CourseFirstGirls\Images\Nobel_Prize_Medal.png" width="200"
-              height="200">
-            </div>
-        </div>
-      </header>
+          <div class="container h-5">
+              <div class="col-12 text-center">
+                <a href="./index.html"> <img src="./Nobel_Prize_Medal.png" width="200" height="200"></a>
+              </div>
+          </div>
+  </div>
+  <div id="navigation">
+
+                    <ul class="nav">
+                       <li class="header_item" ><a href="./frontpage.html" <button type="button" class="btn btn-primary btn-lg">Home</button></a></li>
+                        <li class="header_item"><a href="./aboutus.html" <button type="button" class="btn btn-primary btn-lg">About Us</button></a></li>
+                        <li class="header_item"><button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Laureates by Prize Category
+                    </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="./Chemistry.html">Chemistry</a>
+                            <a class="dropdown-item" href="./Economics.html">Economics</a>
+                            <a class="dropdown-item" href="./Literature.html">Literature</a>
+                            <a class="dropdown-item" href="./Medicine.html">Medicine</a>
+                            <a class="dropdown-item" href="./Physics.html">Physics</a>
+                            <a class="dropdown-item" href="./Peace.html">Peace</a>
+
+                        </div></li>
 
 
-<head>
+          <li class="header_item"> <a href="./contactus.html" <button type="button" class="btn btn-primary btn-lg">Contact Us</button>
+    </a></li>
+    <li class="header_item" ><a href="./Quiz.html" <button type="button" class="btn btn-primary btn-lg">Quiz</button></a></li>
+    </ul>
+
+  </div>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -55,16 +77,11 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
 </style>
 </head>
 <body>
 
-<h3>Contact Form</h3>
+<h3 id="contact">Contact Form</h3>
 
 <div class="container">
   <form action="/action_page.php">
@@ -78,8 +95,8 @@ input[type=submit]:hover {
     <input type="text" id="country" name ="country" placeholder = "Country..">
 
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <label for="subject">Your Comment</label>
+    <textarea id="subject" name="Your Comment" placeholder="Write something.." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
   </form>
