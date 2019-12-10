@@ -1,5 +1,7 @@
 body {
   background: rgb(50,50,50);
+  background-position: center;
+  background-size: cover;
 }
 
 

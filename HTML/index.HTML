@@ -6,7 +6,6 @@
     <!--Bootstrap link-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--CSS link -->
-    <script scr=./index.js></script>
     <link rel="stylesheet" type="text/css" href="indexstyle.css">
 
 </Head>
@@ -28,6 +27,20 @@
             </div>
         </div>
     </header>
+    <script>
+  var bgs = [
+    './chemistry_background.jpg',
+    './Literature_background.jpg',
+    './Peace_background.jpg',
+    './physics_background.jpg',
+    './medicine_background.jpg',
+  ];
+
+  window.onload = function () {
+    var n = Math.floor(Math.random()*bgs.length);
+    document.body.style.backgroundImage = 'url(' + bgs[n] + ')';
+  }
+</script>
 </body>
 
 </html>
