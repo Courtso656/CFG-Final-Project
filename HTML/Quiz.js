@@ -87,7 +87,7 @@
       correctAnswer: "c"
     },
     {
-      question: "Which Nobel prize Catagory has the highest percentage of female laureates?",
+      question: "Which Nobel prize category has the highest percentage of female laureates?",
       answers: {
         a: "Peace",
         b: "Literature",
